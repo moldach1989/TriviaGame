@@ -1,0 +1,90 @@
+body{
+	background-image: url(../images/background.jpg);
+	height: 100%
+}
+
+#jumbo {
+	background-image: url(../images/jumbo2.jpg); 
+	color: rgb(5, 9, 10);
+	text-align: center;
+	
+	height: 100%;
+}
+
+button {
+    color: black;
+ width: 100px;
+ height: 60px;
+	
+}
+
+#world {
+	max-width: 50vw;
+}
+
+/*Second Screen*/
+
+.header {
+	color: black;
+
+}
+
+#timer {
+	color: black;
+}
+
+#quiz {
+    color: black;
+    text-align: left;
+	
+}
+.rowcoltrivia{
+    color: black;
+
+}
+#trivia{
+    color: black;
+    text-align: left;
+
+}
+h2 {
+	text-align: center;
+}
+
+h3{
+	text-align: center;
+}
+ 
+ #question {
+    color: black;
+ 	text-align: left;
+ }
+
+ #answ {
+ 	width: 100%;
+ 	height: 100%;
+ text-align: center;	
+ }
+
+ label {
+    color: black;
+ 	font-size: 25px;
+ 	margin: 10px;
+     text-align: center;
+     margin-left: 300px;
+ 
+ 
+
+ }
+
+ #newgame {
+ 	width: 100px;
+ 	height: 60px;
+ 	font-size: inherit;
+ }
+
+
+#optionsRadios2 {
+	margin: 15px;
+	
+}

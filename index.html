@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>90's Music Trivia Game </title>
+
+	<!--Style css link  -->
+	<link rel="stylesheet" href="assets/css/style.css">
+
+	<!-- mobile friendly -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- bootsrap link -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	
+	<!-- Link to Google Fonts -->
+	<link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Tangerine">
+	
+	<!-- link to jquery -->
+	<script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+
+
+
+</head>
+<body>
+	<!-- Game Start Screen -->
+	<div class="container" id="screen1">
+		<div class="jumbotron" id="jumbo">
+			<h1>Welcome to the 90's Music Trivia Game</h1><br>
+			<img src="https://media.giphy.com/media/Kut4thumEEKIw/giphy.gif" alt="kurt" href="" id="kurt"><br>
+			<br><button href="trivia" class="start">Game Start</button>
+		</div>
+	</div>
+		<!-- End Start Screen -->
+
+		<!-- Trivia Screen -->
+		<div class="container" id="trivia">
+			<div><h1 class="row text-center header"><Strong>90's Music Trivia Game</Strong></h1></div><br>
+			<div class="row">
+				<h3 class="text-center" id="timer"></h3>
+			</div><br>
+
+			<div class="rowcoltrivia" >
+				<div id="quiz"></div>
+			</div>
+			
+		</div><br>
+			<!-- End Trivia Screen -->
+			<!-- Corrects and Wrong answwer Screen -->
+			<div class="container" id="end">
+				<div class="jumbotron" id="jumbo">
+					<h1 id="finalRes">Thank you for Playing</h1>
+				
+					<div class="row">
+					<div class="col-lg-12" id="resLoad">hello</div>
+					</div>
+				</div>
+			</div>
+	
+
+<!-- Link to javascript -->
+<script src="assets/javascript/app.js"></script>	
+</body>
+</html>
